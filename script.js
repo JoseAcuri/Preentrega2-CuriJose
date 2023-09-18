@@ -1,12 +1,12 @@
 const carrito = [];
 
 const shoes = [
-    { code: 1, model: 'Nike Jordan 1 mid', price: 50000 },
-    { code: 2, model: 'Nike Air Force 1', price: 40000 },
-    { code: 3, model: 'Nike Court Vision Low', price: 54000 },
-    { code: 4, model: 'Nike Air Max Excee', price: 25000 },
-    { code: 5, model: 'Nike Air Max 90', price: 19800 },
-    { code: 6, model: 'Nike Revolution 5', price: 32000 }
+    { code: 1, model: 'Nike Jordan 1 mid', price: 60000 },
+    { code: 2, model: 'Nike Air Force 1', price: 47000 },
+    { code: 3, model: 'Nike Court Vision Low', price: 64000 },
+    { code: 4, model: 'Nike Air Max Excee', price: 35000 },
+    { code: 5, model: 'Nike Air Max 90', price: 29800 },
+    { code: 6, model: 'Nike Revolution 5', price: 42000 }
 ];
 
 const cartList = document.getElementById('cart-list');
