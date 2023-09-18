@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Zapatillas</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Tienda de Zapatillas</h1>
+    </header>
+    
+    <main>
+        <section class="instructions">
+            <h2>Instrucciones</h2>
+            <p>Bienvenido a la Tienda de Zapatillas. Sigue estos pasos para realizar una compra:</p>
+            <ol>
+                <li>Selecciona una zapatilla haciendo clic en el botón "Seleccionar" correspondiente.</li>
+                <li>Repite el paso 1 para agregar más zapatillas al carrito si lo deseas.</li>
+                <li>Cuando hayas terminado de agregar zapatillas, haz clic en el botón "Comprar".</li>
+                <li>Confirma el pago y ¡disfruta de tus zapatillas!</li>
+            </ol>
+        </section>
+
+        <section class="shoes">
+            <h2>Productos Disponibles</h2>
+            <ul>
+                <li><strong>Código:</strong> 1 - Nike Jordan 1 mid <strong>Precio:</strong> $50,000 <button onclick="addToCart(1)">Seleccionar</button></li>
+                <li><strong>Código:</strong> 2 - Nike Air Force 1 <strong>Precio:</strong> $40,000 <button onclick="addToCart(2)">Seleccionar</button></li>
+                <li><strong>Código:</strong> 3 - Nike Court Vision Low <strong>Precio:</strong> $54,000 <button onclick="addToCart(3)">Seleccionar</button></li>
+                <li><strong>Código:</strong> 4 - Nike Air Max Excee <strong>Precio:</strong> $25,000 <button onclick="addToCart(4)">Seleccionar</button></li>
+                <li><strong>Código:</strong> 5 - Nike Air Max 90 <strong>Precio:</strong> $19,800 <button onclick="addToCart(5)">Seleccionar</button></li>
+                <li><strong>Código:</strong> 6 - Nike Revolution 5 <strong>Precio:</strong> $32,000 <button onclick="addToCart(6)">Seleccionar</button></li>
+            </ul>
+        </section>
+        
+        <section class="cart">
+            <h2>Carrito de Compras</h2>
+            <ul id="cart-list">
+                <!-- Los elementos del carrito se agregarán aquí -->
+            </ul>
+            <p>Total: $<span id="cart-total">0</span></p>
+            <button onclick="checkout()">Comprar</button>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <h2>Curi, José.</h2>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/curi.00.00/" target="_blank"><i class="fab fa-instagram"></i></a></a>
+                <a href="https://www.linkedin.com/in/linkedin" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/JoseAcuri" target="_blank"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

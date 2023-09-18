@@ -1,0 +1,126 @@
+@font-face {
+    font-family: "edo";
+    src: url(../fonts/edo.ttf);
+  }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    font-family: 'edo';
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+section {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 0.5rem 0;
+}
+
+button {
+    background-color: #854b4b;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d17878;
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilos para el título h2 del footer */
+footer h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+/* Estilos para los íconos de redes sociales */
+.social-icons {
+    display: flex;
+    gap: 20px;
+    font-size: 24px;
+}
+
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #ff9900;
+}
+
+
+
+/* Media queries */
+
+
+@media (max-width: 768px) {
+    main {
+        flex-direction: column; 
+        align-items: center; 
+    }
+    section {
+        width: 80%; 
+        margin-bottom: 20px; 
+    }
+}
+
+
+@media (max-width: 480px) {
+    main {
+        padding: 1rem; 
+    }
+    section {
+        width: 100%; 
+    }
+    button {
+        font-size: 14px; 
+    }
+}
+
+
+
